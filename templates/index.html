@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .center {
+                text-align: center;
+                border: 3px solid green;
+                padding-top: 50px;
+                padding-right: 30px;
+                padding-bottom: 50px;
+                padding-left: 80px;
+              }
+        </style>
+    </head>
+<body>
+
+<h1>File upload</h1>
+
+<p>Show a file-select field which allows a file to be chosen for upload:</p>
+<form  action = "/success" method = "post" enctype="multipart/form-data">
+    <div class="center">
+  <label for="myfile">Select a file:</label>
+  <input type="file" name="file" />  <br><br>
+  <input type = "submit" value="Upload"> 
+  
+</div>
+</form>
+
+</body>
+</html>
